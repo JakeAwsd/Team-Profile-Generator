@@ -1,8 +1,9 @@
 class Employee {
 
-    constructor(id, name, email) {
-        this.id = id;
+    constructor(name, id, email) {
+
         this.name = name;
+        this.id = id;
         this.email = email;
         // this is the base class 
         // super is used to call the base classes constructor so we wouldnt use it here, instead we should use this.
