@@ -25,7 +25,7 @@ const generateTeam = team => {
                 <p class="card-text">🤓${engineer.getRole()}</p>
                     <div class="card-header">Id: ${engineer.getId()}</div>
                 <div class="card-header">Email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></div>
-            <div class="card-header">Github: <a href="https://github.com/${engineer.getGithub()}" target="_blank" rel="noopener noreferrer"></div>
+            <div class="card-header">Github: <a href="https://github.com/${engineer.getGithub()}" target="_blank" rel="noopener noreferrer">${engineer.getGithub()}</a></div>
         </div>
     </div>
         `;
@@ -40,8 +40,8 @@ const generateTeam = team => {
                 <p class="card-text">
                 👨‍🎓${intern.getRole()}</p>
                     <div class="card-header">Id: ${intern.getId()}</div>
-                <div class="card-header">Email: <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a>${intern.getEmail()}</div>
-            <div class="card-header">Github: <a href="https://github.com/${intern.getSchool()}" target="_blank" rel="noopener noreferrer"></div>
+                <div class="card-header">Email: <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></div>
+            <div class="card-header">School: ${intern.getSchool()}</div>
         </div>
     </div>
         `;

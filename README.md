@@ -6,7 +6,10 @@ Team generator is a useful application used to manage your team
 
 download the package from github: 
 ```bash
+## Github Link
 https://github.com/JakeAwsd/Team-Profile-Generator
+## Video walkthrough Link: 
+https://watch.screencastify.com/v/DbGkwdzUYJKG2GYiy5ks
 ```
 
 ## Usage
